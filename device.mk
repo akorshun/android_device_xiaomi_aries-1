@@ -219,9 +219,6 @@ PRODUCT_PACKAGES += \
 	wpa_supplicant_overlay.conf \
 	p2p_supplicant_overlay.conf
 
-PRODUCT_PACKAGES += \
-	dualboot_init
-
 # fmradio support
 PRODUCT_PACKAGES += \
 	qcom.fmradio \

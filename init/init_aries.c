@@ -102,7 +102,5 @@ void init_msm_properties(unsigned long msm_id, unsigned long msm_ver, char *boar
     }
 
     property_set("ro.product.device", "aries");
-    property_set("ro.build.description", "aries-user 4.4.2 KOT49H 937116 release-keys");
-    property_set("ro.build.fingerprint", "Xiaomi/aries/aries:4.4.2/KOT49H/937116:user/release-keys");
 
 }

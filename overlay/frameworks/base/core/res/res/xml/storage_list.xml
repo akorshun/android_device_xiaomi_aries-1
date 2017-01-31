@@ -25,8 +25,9 @@
         android:mountPoint="/storage/sdcard0"
         android:storageDescription="@string/storage_internal"
         android:primary="true"
+        android:emulated="true"
         android:removable="false"
-        android:allowMassStorage="false" />
+        android:mtpReserve="100" />
 
     <!-- external usb storage -->
     <storage
